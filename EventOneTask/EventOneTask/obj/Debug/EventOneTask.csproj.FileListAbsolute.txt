@@ -16,3 +16,6 @@ D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.csprojResolveAssembl
 D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.FrmHome.resources
 D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.Properties.Resources.resources
 D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.csproj.GenerateResource.Cache
+E:\GitForTesting\OneMoreTest\EventOneTask\EventOneTask\bin\Debug\EventOneTask.exe.config
+E:\GitForTesting\OneMoreTest\EventOneTask\EventOneTask\obj\Debug\EventOneTask.exe
+E:\GitForTesting\OneMoreTest\EventOneTask\EventOneTask\obj\Debug\EventOneTask.pdb

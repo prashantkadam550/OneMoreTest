@@ -14,3 +14,4 @@ E:\GitForTesting\OneMoreTest\EventOneTask\GitTest\bin\Debug\GitTest.pdb
 E:\GitForTesting\OneMoreTest\EventOneTask\GitTest\obj\Debug\GitTest.FrmHome.resources
 E:\GitForTesting\OneMoreTest\EventOneTask\GitTest\obj\Debug\GitTest.Properties.Resources.resources
 E:\GitForTesting\OneMoreTest\EventOneTask\GitTest\obj\Debug\GitTest.csproj.GenerateResource.Cache
+E:\GitForTesting\OneMoreTest\EventOneTask\GitTest\obj\Debug\GitTest.csprojResolveAssemblyReference.cache

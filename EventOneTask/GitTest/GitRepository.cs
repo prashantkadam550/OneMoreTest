@@ -17,14 +17,15 @@ namespace GitTest
             gitInfo.RedirectStandardError = true;
             gitInfo.RedirectStandardOutput = true;
             gitInfo.FileName = mGitInstalledPath;
+            // Commented For Testing
         }
 
         public String gitFetchMethod()
         {
            // String outputString = "";
             Process gitProcess = new Process();
-            gitInfo.Arguments = "fetch --all"; // YOUR_GIT_COMMAND such as "fetch orign"
-            gitInfo.WorkingDirectory = @"D:\Git\EventOneSample"; // YOUR_GIT_REPOSITORY_PATH;
+            gitInfo.Arguments = "fetch"; // YOUR_GIT_COMMAND such as "fetch orign"
+            gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest"; // YOUR_GIT_REPOSITORY_PATH;
             gitProcess.StartInfo = gitInfo;
             gitProcess.StartInfo.UseShellExecute = false;
             gitProcess.OutputDataReceived += GitProcess_OutputDataReceived;

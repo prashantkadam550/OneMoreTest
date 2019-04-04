@@ -40,9 +40,9 @@ namespace GitTest
 
             Process gitProcess = new Process();
             gitInfo.Arguments = "fetch"; // such as "fetch orign"
-            gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest"; 
-
+            gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest";
             gitProcess.StartInfo = gitInfo;
+            gitProcess.StartInfo.UseShellExecute = false;
             gitProcess.Start();
 
             string stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR

@@ -22,34 +22,34 @@ namespace GitTest
 
         public String gitFetchMethod()
         {
-            // String outputString = "";
-            //Process gitProcess = new Process();
-            //gitInfo.Arguments = "fetch"; // YOUR_GIT_COMMAND such as "fetch orign"
-            //gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest"; // YOUR_GIT_REPOSITORY_PATH;
-            //gitProcess.StartInfo = gitInfo;
-            //gitProcess.StartInfo.UseShellExecute = false;
-            //gitProcess.OutputDataReceived += GitProcess_OutputDataReceived;
-            //gitProcess.ErrorDataReceived += GitProcess_ErrorDataReceived;
-            //gitProcess.Start();
-            ////gitProcess.WaitForExit();
-
-            //gitProcess.BeginOutputReadLine(); // pick up STDERR
-            //gitProcess.BeginErrorReadLine(); // pick up STDOUT
-
-            //gitProcess.Close();
-
+            String outputString = "";
             Process gitProcess = new Process();
-            gitInfo.Arguments = "fetch"; // such as "fetch orign"
-            gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest";
+            gitInfo.Arguments = "fetch"; // YOUR_GIT_COMMAND such as "fetch orign"
+            gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest"; // YOUR_GIT_REPOSITORY_PATH;
             gitProcess.StartInfo = gitInfo;
             gitProcess.StartInfo.UseShellExecute = false;
+            gitProcess.OutputDataReceived += GitProcess_OutputDataReceived;
+            gitProcess.ErrorDataReceived += GitProcess_ErrorDataReceived;
             gitProcess.Start();
+            //gitProcess.WaitForExit();
 
-            string stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-            string stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+            gitProcess.BeginOutputReadLine(); // pick up STDERR
+            gitProcess.BeginErrorReadLine(); // pick up STDOUT
 
-            gitProcess.WaitForExit();
             gitProcess.Close();
+
+            //Process gitProcess = new Process();
+            //gitInfo.Arguments = "fetch"; // such as "fetch orign"
+            //gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest";
+            //gitProcess.StartInfo = gitInfo;
+            //gitProcess.StartInfo.UseShellExecute = false;
+            //gitProcess.Start();
+
+            //string stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+            //string stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+            //gitProcess.WaitForExit();
+            //gitProcess.Close();
 
             return "";
         }

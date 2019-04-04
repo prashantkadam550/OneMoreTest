@@ -1,0 +1,8 @@
+D:\Event 1\EventOneTask\GitTest\bin\Debug\GitTest.exe.config
+D:\Event 1\EventOneTask\GitTest\bin\Debug\GitTest.exe
+D:\Event 1\EventOneTask\GitTest\bin\Debug\GitTest.pdb
+D:\Event 1\EventOneTask\GitTest\obj\Debug\GitTest.FrmHome.resources
+D:\Event 1\EventOneTask\GitTest\obj\Debug\GitTest.Properties.Resources.resources
+D:\Event 1\EventOneTask\GitTest\obj\Debug\GitTest.csproj.GenerateResource.Cache
+D:\Event 1\EventOneTask\GitTest\obj\Debug\GitTest.exe
+D:\Event 1\EventOneTask\GitTest\obj\Debug\GitTest.pdb

@@ -1,0 +1,18 @@
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\bin\Debug\EventOneTask.exe.config
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\bin\Debug\EventOneTask.exe
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\bin\Debug\EventOneTask.pdb
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\obj\Debug\EventOneTask.FrmHome.resources
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\obj\Debug\EventOneTask.Properties.Resources.resources
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\obj\Debug\EventOneTask.csproj.GenerateResource.Cache
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\obj\Debug\EventOneTask.exe
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\obj\Debug\EventOneTask.pdb
+c:\users\prashantk\documents\visual studio 2015\Projects\EventOneTask\EventOneTask\obj\Debug\EventOneTask.csprojResolveAssemblyReference.cache
+D:\Event 1\EventOneTask\EventOneTask\bin\Debug\EventOneTask.exe.config
+D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.exe
+D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.pdb
+D:\Event 1\EventOneTask\EventOneTask\bin\Debug\EventOneTask.exe
+D:\Event 1\EventOneTask\EventOneTask\bin\Debug\EventOneTask.pdb
+D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.csprojResolveAssemblyReference.cache
+D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.FrmHome.resources
+D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.Properties.Resources.resources
+D:\Event 1\EventOneTask\EventOneTask\obj\Debug\EventOneTask.csproj.GenerateResource.Cache

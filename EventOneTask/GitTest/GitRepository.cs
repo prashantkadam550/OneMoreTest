@@ -37,20 +37,6 @@ namespace GitTest
             gitProcess.BeginErrorReadLine(); // pick up STDOUT
 
             gitProcess.Close();
-
-            //Process gitProcess = new Process();
-            //gitInfo.Arguments = "fetch"; // such as "fetch orign"
-            //gitInfo.WorkingDirectory = @"D:\TestGit\OneMoreTest";
-            //gitProcess.StartInfo = gitInfo;
-            //gitProcess.StartInfo.UseShellExecute = false;
-            //gitProcess.Start();
-
-            //string stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-            //string stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
-
-            //gitProcess.WaitForExit();
-            //gitProcess.Close();
-
             return "";
         }
         

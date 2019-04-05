@@ -30,14 +30,14 @@
         {
             this.panelHeader = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCommit = new System.Windows.Forms.Button();
             this.btnPull = new System.Windows.Forms.Button();
             this.btnFetch = new System.Windows.Forms.Button();
             this.splitContainer = new System.Windows.Forms.SplitContainer();
             this.listViewRepositoryList = new System.Windows.Forms.ListView();
             this.clmnCheckBox = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.RepositoryName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnCommit = new System.Windows.Forms.Button();
+            this.txtOutPut = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
@@ -66,6 +66,16 @@
             this.panel1.Size = new System.Drawing.Size(1013, 47);
             this.panel1.TabIndex = 1;
             // 
+            // btnCommit
+            // 
+            this.btnCommit.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnCommit.Location = new System.Drawing.Point(892, 7);
+            this.btnCommit.Name = "btnCommit";
+            this.btnCommit.Size = new System.Drawing.Size(108, 27);
+            this.btnCommit.TabIndex = 2;
+            this.btnCommit.Text = "Commit";
+            this.btnCommit.UseVisualStyleBackColor = true;
+            // 
             // btnPull
             // 
             this.btnPull.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -75,6 +85,7 @@
             this.btnPull.TabIndex = 1;
             this.btnPull.Text = "Pull";
             this.btnPull.UseVisualStyleBackColor = true;
+            this.btnPull.Click += new System.EventHandler(this.btnPull_Click);
             // 
             // btnFetch
             // 
@@ -99,7 +110,7 @@
             // 
             // splitContainer.Panel2
             // 
-            this.splitContainer.Panel2.Controls.Add(this.textBox1);
+            this.splitContainer.Panel2.Controls.Add(this.txtOutPut);
             this.splitContainer.Size = new System.Drawing.Size(1013, 407);
             this.splitContainer.SplitterDistance = 750;
             this.splitContainer.TabIndex = 2;
@@ -126,24 +137,14 @@
             // 
             this.RepositoryName.Text = "RepositoryName";
             // 
-            // textBox1
+            // txtOutPut
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(0, 0);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(259, 407);
-            this.textBox1.TabIndex = 1;
-            // 
-            // btnCommit
-            // 
-            this.btnCommit.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnCommit.Location = new System.Drawing.Point(892, 7);
-            this.btnCommit.Name = "btnCommit";
-            this.btnCommit.Size = new System.Drawing.Size(108, 27);
-            this.btnCommit.TabIndex = 2;
-            this.btnCommit.Text = "Commit";
-            this.btnCommit.UseVisualStyleBackColor = true;
+            this.txtOutPut.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtOutPut.Location = new System.Drawing.Point(0, 0);
+            this.txtOutPut.Multiline = true;
+            this.txtOutPut.Name = "txtOutPut";
+            this.txtOutPut.Size = new System.Drawing.Size(259, 407);
+            this.txtOutPut.TabIndex = 1;
             // 
             // FrmHome
             // 
@@ -172,7 +173,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.SplitContainer splitContainer;
         private System.Windows.Forms.ListView listViewRepositoryList;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtOutPut;
         private System.Windows.Forms.Button btnPull;
         private System.Windows.Forms.Button btnFetch;
         private System.Windows.Forms.ColumnHeader clmnCheckBox;

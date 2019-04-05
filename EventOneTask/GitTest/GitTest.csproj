@@ -52,7 +52,10 @@
     <Compile Include="FrmHome.Designer.cs">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="GitAction.cs" />
     <Compile Include="GitCommand.cs" />
+    <Compile Include="GitFetchAction.cs" />
+    <Compile Include="GitPullAction.cs" />
     <Compile Include="GitRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
